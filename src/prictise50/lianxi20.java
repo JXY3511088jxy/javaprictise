@@ -13,7 +13,7 @@ public class lianxi20 {
             y = x;
             x = y + t;
         }
-        System.out.println("前20项相加之和是： " + sum);
+        System.out.println("前20项相加之和是：" + sum);
     }
 
 }
