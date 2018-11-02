@@ -1,5 +1,7 @@
 package prictise100;
 
+import java.util.Scanner;
+
 /**
  * 编写Application，主类中包含以下两个自定义方法： void  printA( int[ ]  array )和int[]  myArray(int  n)。
  * 方法printA(int[ ]  array)的功能是把参数数组各元素在屏幕的一行中输出。
@@ -8,28 +10,36 @@ package prictise100;
  * 并调用方法printA（ ）输出该数组的所有元素。
  */
 public class class4 {
-    static int n;
+//    static int n;
     public static void main (String[] args)
     {
-        if(args.length > 0)
+        int n;
+        Scanner s = new Scanner(System.in);
+        System.out.println("请输入一个整数：");
+        n = s.nextInt();
+        int[] m;
+        m = myArray(n);
+        printA(m);
+
+/*        if(args.length > 0)
         {
             n=Integer.parseInt(args[0]);
             int[ ] a=new int[n];
             a=myArray(n);
             printA(a);
         }
-        else  	{   System.out.println("缺命令行参数!");   System.exit(-1);   }
+        else  	{   System.out.println("缺命令行参数!");   System.exit(-1);   }*/
     }
-    static void printA(int[ ] x)
+    static void printA(int[] x)
     {
         for(int i=0; i< x.length; i++)
             System.out.print(x[i]+"   ");
         System.out.println( );
         return;
     }
-    static int[ ]  myArray(int k)
+    static int[]  myArray(int k)
     {
-        int x[ ]=new int[k];
+        int x[]=new int[k];
         for(int i=0; i< k; i++)
             x[i]=50+(int)(Math.random( )*50);
         return  x;
