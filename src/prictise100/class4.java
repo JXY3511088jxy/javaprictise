@@ -18,8 +18,11 @@ public class class4 {
         System.out.println("请输入一个整数：");
         n = s.nextInt();
         int[] m;
+        if (n>0){
         m = myArray(n);
-        printA(m);
+        printA(m);}else {
+            System.out.println("请输入大于零的整数！");
+        }
 
 /*        if(args.length > 0)
         {
