@@ -26,7 +26,7 @@ public class Applet6 extends Applet {
         }
         return  y;
     }
-    double arrayMin(double[] x)
+    double arrayMin(double[] x)    //方法的重载
     {
         double y=x[0];
         for(int i=1; i< x.length; i++){
