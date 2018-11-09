@@ -8,6 +8,7 @@ import java.util.Scanner;
  * 在主方法main( ) 中调用上面的三个方法，这三个方法的参数均来自命令行参数，最后将计算结果输出在屏幕上。
  */
 public class class5 {
+
     static int mySqrt(int a){
         return (int)Math.sqrt(a);
     }
