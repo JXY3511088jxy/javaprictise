@@ -27,6 +27,7 @@ public class class15 {
         }else {
             System.out.println("3个整数的最大值为："+c);
         }
+        System.out.println("最大值："+Math.max(c,Math.max(a,b)));
         //求最小值
         if (a<=b){
             if (a<=c){
@@ -37,6 +38,7 @@ public class class15 {
         }else {
             System.out.println("3个整数的最小值为："+b);
         }
+        System.out.println("最小值："+Math.min(c,Math.min(a,b)));
 
     }
 }
