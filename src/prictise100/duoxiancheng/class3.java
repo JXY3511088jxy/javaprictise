@@ -1,4 +1,4 @@
-package prictise100.多线程;
+package prictise100.duoxiancheng;
 
 /**
  * 请编写一个类，类名为MulThread ，类中定义了含一个字符串参数的构造函数，并实现了Runnable接口，
