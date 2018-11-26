@@ -10,7 +10,7 @@ public class class2 {
     public static void main(String[] args) {
         subThread1 t1 = new subThread1("First");
         subThread1 t2 = new subThread1("Second");
-        subThread1 t3 = new subThread1("Thread");
+        subThread1 t3 = new subThread1("Third");
         t1.start();
         t2.start();
         t3.start();
@@ -24,7 +24,8 @@ class subThread1 extends Thread{
         for (int i=1;i<=5;i++){
             System.out.println(getName()+"循环到了第"+i+"次");
             try {
-                sleep((int)(Math.random())*1000);
+                //sleep((int)(Math.random())*1000);
+                sleep(2000);
             }catch (InterruptedException e){}
         }
         System.out.println(getName()+"finished");
