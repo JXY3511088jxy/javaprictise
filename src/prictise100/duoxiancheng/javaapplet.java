@@ -27,7 +27,7 @@ public class javaapplet extends Applet implements Runnable
             repaint();
         }
     }
-    public void paint( Graphics g )
+    public void paint(Graphics g)
     {
         setBackground(Color.white);
         g.setColor(Color.pink);
