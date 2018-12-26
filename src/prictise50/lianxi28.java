@@ -3,7 +3,7 @@ package prictise50;
 import java.util.Scanner;
 
 /**
- * 对10个数进行排序
+ * 对10个数进行排序--
  */
 public class lianxi28 {
     public static void main(String[] args) {
