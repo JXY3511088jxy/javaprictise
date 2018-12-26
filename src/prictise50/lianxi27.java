@@ -1,6 +1,6 @@
 package prictise50;
 /*
-求100之内的素数
+求100之内的素数（一共有两种方法）
  */
 public class lianxi27 {
     public static void main(String[] args) {
